@@ -1,0 +1,125 @@
+footer {
+    background-color: #2b2d4f;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.footer-description {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #d9d9d9;
+}
+
+.footer-contact a {
+    display: block;
+    color: #d9d9d9;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-contact a:hover {
+    color: #fff;
+}
+
+.footer-links {
+    flex: 1;
+}
+
+.footer-links h3 {
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 15px;
+}
+
+.footer-links ul li a {
+    color: #d9d9d9;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #fff;
+}
+
+.footer-newsletter {
+    flex: 1;
+    margin-left: 40px;
+}
+
+.footer-newsletter h3 {
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.footer-newsletter p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #d9d9d9;
+}
+
+.newsletter-form {
+    display: flex;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 14px;
+}
+
+.newsletter-form input::placeholder {
+    color: #aaa;
+}
+
+.newsletter-form button {
+    width: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-form button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
