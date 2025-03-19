@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131111;
+    color: white;
+    padding: 10px;
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+header div.logo{
+    margin-left: 50px;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+header nav ul{
+    margin: 0 50px;
+    display: flex;
+    list-style-type: none;
+}
+header nav ul li{
+    margin-right: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+}
+header nav ul li a:hover{
+    color: blue;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .hero-content{
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(42, 35, 42, 0.338),rgba(255, 65, 226, 0.415)) , url('../images/welcome-hero/welcome-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    padding-bottom: 200px;
+}
+.hero-content h2{
+    font-size: 50px;
+    color: white;
+   max-width: 1000px;
+    text-align: center;  
+    margin-bottom: 15px; 
+}
+.hero-content p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.hero-content a {
+    display: inline-block; /* Permet de définir largeur/hauteur */
+    padding: 12px 24px; /* Espacement interne */
+    background-color: #007bff; /* Couleur de fond (bleu) */
+    color: white; /* Texte en blanc */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    font-size: 16px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    border-radius: 8px; /* Coins arrondis */
+    transition: background 0.3s ease-in-out; /* Animation fluide */
+    margin-top: 20px; /* Décalage vers le bas */
+    text-transform: capitalize;
+}
+
+.hero-content a:hover {
+    background-color: #0056b3; /* Couleur plus foncée au survol */
+}
+
+section .search{
+    position: absolute;
+    top: 800px;
+    margin-bottom: 100px;
+    
+    background-color: #ffffff;
+    border-radius: 10px; /* Coins arrondis */
+    width: 1000px;
+    padding: 20px; /* Espacement intérieur */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+section .search form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .search form div{
+    margin: 30px 20px;
+    
+}
+section .search .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+section .search .form-group select{
+    margin-top: 25px;
+    background-color: rgba(169, 169, 169, 0.155);
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    transition: border 0.3s ease-in-out;
+}
+section form .form4  a{
+    display: inline-block;
+    background-color: #5a47ff;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
