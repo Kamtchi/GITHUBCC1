@@ -1,0 +1,85 @@
+.header {
+    margin-bottom: 40px;
+}
+
+.header h2 {
+    color: #444;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.header hr {
+    width: 50px;
+    margin: 0 auto;
+    border: 1px solid #4169e1;
+}
+
+.testimonials-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.testimonial-card {
+    flex: 1;
+    max-width: 350px;
+    border: 1px solid #eee;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.client-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.client-location {
+    color: #777;
+    font-size: 14px;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.partner {
+    padding: 10px 20px;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.partner:hover {
+    opacity: 1;
+}
+
+.partner img {
+    max-width: 100px;
+    height: auto;
+}
