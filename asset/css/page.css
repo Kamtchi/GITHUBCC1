@@ -52,7 +52,7 @@ section{
 }
 section .hero-content{
     width: 100%;
-    background-image: linear-gradient(to right, rgba(42, 35, 42, 0.338),rgba(255, 65, 226, 0.415)) , url('../images/welcome-hero/welcome-banner.jpg');
+    background-image: linear-gradient(to right, rgba(42, 35, 42, 0.338),rgba(255, 65, 226, 0.415)) , url('../image/welcome-hero/welcome-banner.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
