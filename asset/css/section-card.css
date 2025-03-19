@@ -1,0 +1,88 @@
+.newest-cars {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+    color: #666;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    color: #444d57;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .section-divider {
+    width: 80px;
+    height: 3px;
+    background-color: #5a47ff;
+    margin: 0 auto;
+  }
+  
+  .car-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .car-image {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .car-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .car-details {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .car-name {
+    font-size: 32px;
+    color: #444d57;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .car-description {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .btn-details {
+    display: inline-block;
+    background-color: #5a47ff;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-details:hover {
+    background-color: #4835e0;
+  }
